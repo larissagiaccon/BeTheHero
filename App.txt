@@ -1,0 +1,117 @@
+Criar BACK-END
+
+mkdir backend
+cd backend
+npm init -y
+npm install express
+npm install nodemon -D
+npm install knex
+npm install sqlite3
+npx knex init
+npx knex migrate:make create_ongs
+npx knex migrate:latest		Executa e cria a tabela
+npx knex				Lista comandos
+npx knex migrate:rollback		Desfaz o ultimo comando
+npx knex migrate:status		Mostra todas tabelas
+npm install cors			Quem pode acessar
+
+
+
+GET: Buscar/listar uma informação do back-end
+POST: Criar uma informação no bk
+PUT: Alterar uma informação no bk
+DELETE: Deletar uma informação
+
+
+Tipos de parâmetros:
+
+Query Params: Parâmetros nnomeados enviados na roda após "?" (filtros, paginação)
+Route Params: Parâmetros utilizados para identificar recursos
+Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+
+
+SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+NoSQL: MongoDB, Couch, etc
+
+
+
+Entidade:
+		ONG
+		Caso (insident)
+
+Funcionalidades:
+		Login de ONG
+		Logout de ONG
+		Cadastro de ONG
+		Cadastrar novos casos
+		Deletar casos
+		Listar casos específicos de uma ONG
+		Listar todos os casos
+		Entrar em contato com a ONG (Whats, Email)
+
+
+
+
+Criar FRONT-END
+
+npx create-react-app frontend
+npm install react-icons			Icones
+npm install react-router-dom			Rotas
+npm install axios				Conectar ao banco
+
+
+Componente: 	Função que retorna HTML
+JSX: 		HTML dentro do JavaScript
+Propriedades:	
+Estado:		Informação mantida pelo componente
+
+
+Importar Fonte Roboto
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+Para completar automatico, no settings.JSON
+
+"emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+
+Icones: https://feathericons.com/
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Larissasouz/test.git
+git push -u origin master
+
+
+SUBIR ALTERAÇÕES PRO GIT
+
+git add .
+git commit -m "teste de commit"
+git push
+
+
+
+Criar MOBILE (expo common issues rocketseat)
+
+npm install -g expo-cli
+expo -h
+expo init mobile --template blank
+npm install @react-navigation/native		ou yarn add @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack		ou yarn add @react-navigation/stack
+expo install expo-constants
+expo install expo-mail-composer
+npm install axios
+npm install intl
+
+
+Icon: 192x192
+Splash: 1242x2436
