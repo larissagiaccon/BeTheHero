@@ -15,6 +15,19 @@ npx knex migrate:rollback		Desfaz o ultimo comando
 npx knex migrate:status		Mostra todas tabelas
 npm install cors			Quem pode acessar
 
+npm install jest - D			Testes
+npx jest --init
+
+npm install cross-env		Confirgurar ambiente de teste
+npm install supertest -D		Validações de testes
+
+QUESTÕES RELACIONADAS AO JEST
+
+Would you like to use Jest when running "test" script in "package.json"? ... yes
+Choose the test environment that will be used for testing » node
+Do you want Jest to add coverage reports? ... no
+Which provider should be used to instrument code for coverage? » v8
+Automatically clear mock calls and instances between every test? yes
 
 
 GET: Buscar/listar uma informação do back-end
@@ -115,3 +128,44 @@ npm install intl
 
 Icon: 192x192
 Splash: 1242x2436
+
+
+
+DEPLOY BACK-END
+
+HEROKU
+	Node
+	App experimental
+	Caro para app gigantes
+	Video: Deploy de aplicação NodeJS e ReactJS no Heroku
+
+DIGITAL OCEAN
+	App comercial
+	App pequena/gigante
+	Video: Deploy de apps Node.js
+
+AWS (AMAZON WEB SERVICE)
+GOOGLE CLOUD PLATAFORM
+MICROSOFT WAZER
+	App gigante
+
+
+DEPLOY FRONT-END
+
+NETILIFY
+	Expecífico front-end
+	App experimental / pequenos
+
+
+DEPLOY MOBILE
+	Video: Gerando APK (Android) e IPA (iOS) com React Native & Expo
+
+
+Estudar:
+	Padrões de código: ESLint, Prettier
+	Autencificação JWT
+	Styled Components
+
+Dicas:
+	Colocar no Github
+	Post no Linkedin - Oque aprendeu, video do app funcionando
